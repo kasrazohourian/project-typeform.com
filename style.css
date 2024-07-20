@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
     max-width: 1320px;
     margin: auto;
   
@@ -125,9 +125,12 @@ body{
 }
 .text{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    max-width: 1320px;
     justify-content: space-evenly;
-    margin-right: 500px;
+    margin-right: 50px;
+    margin-top: 20px;
+    
  
    
     
@@ -137,25 +140,19 @@ body{
     display: flex;
     flex-direction: row;
     font-size: xx-large;
-    margin-bottom: 10px;
     margin-right: 90px;
-    margin-left: 20px;
-    width: 600px;
-    
-    
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    margin-left: 50px;
+    width: 500px;
+    font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 
 }
 
 .text2{
 
-    display: flex;
-    flex-direction: column;
     margin-left: 50px;
-    margin-right: 210px;
     margin-bottom: 50px;
     text-align: start;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     width: 450px;
 
 }
@@ -175,21 +172,216 @@ body{
         color: rgb(255, 251, 251);
         cursor: pointer;
         font-size: 18px;
+        font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;;
     
 }
 .btn3:hover{
     background-color:rgb(46, 44, 44) ;
 }
-.logo2{
+
+.logo2-container{
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 200px;
+    
+}
+.rated{
+
+    font-size: 19px; /* Anpassen der Schriftgröße nach Bedarf */
+    font-weight:290;
+    max-width: 1320px;
+    margin-bottom: -130px; /* Abstand zwischen Text und Logos */
+    margin-top: 150px;
+    text-decoration: none;
+    text-align: center;
+    font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue, sans-serif";
+    letter-spacing: 0.03em;
+     line-height: 100%;
+
+}
+
+
+.logo2 img {
+    margin: 40px; /* Abstand zwischen den Logos */
+    width: 130px;
+    height: 300px;
+    align-items: flex-end;
+    
+}
+.text3{
+    text-align: center;
+    font-size: 48px; 
+    max-width: 1320px;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
+    font-weight: 400; 
+    font-size: 60;
+    letter-spacing: -0.00em;
+     line-height: 100%;
+     
+    
+}
+.text-middle{
+    display: block;
+    margin: 0 auto;
+    
+}
+.video2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 845px;
+    height: 480px;
+    padding: 10%;
+    margin-left: 300px;
+    
+
+  
+    
+}
+.look{
+    display: block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 90px;
+    max-width: 1320px;
+    
+    
+
+}
+.feel{
+    display: flex;
+    flex-direction: row;
+}
+.text4{
+
+    
+    margin-right: 300;
+    font-size: 45px;
+    font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+   
+    
+      
+}
+.text5{
+
+    font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+    margin-top: 20px;
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+}
+.buttom4{
+    display: flex;
+    justify-content: start;
+}
+
+.btn4{
+padding: 18px 45px;
+margin-top: 20px;
+  border: none;
+  border-radius: 40px;
+  font-weight:600;
+  font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 12px;
+    }
+
+.btn4:hover{
+    background-color: rgb(70, 68, 68);
+}
+
+.video3{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 845px;
+    height: 480px;
+    padding-left: 180px;
+    padding-top:0%;
+    
+    
+    
+
+  
+    
+}
+.more{
     display:flex;
-    justify-content: center;
- 
- 
+    flex-direction: column;
+    margin-left: 10px;
+    
+    
+
+}
+.jomle{
+    
+    
+    max-width: 1320px;
+    margin-top: 50px;
+    margin-left:150px;
+    max-width: 1320px;
+
+
+}
+
+.jomle1{
+    
+    
+    margin-right: 300px;
+    font-size: 45px;
+    font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+    
+}
+
+.collect{
+    display: flex;
+    flex-direction:column;
+}
+.jomle2{
+    font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+    
+    
+}
+.buttom5{
+    display: flex;
+    justify-content: start;
+    margin-left: 150px;
+}
+.btn5{
+padding: 18px 45px;
+margin-top: 20px;
+  border: none;
+  border-radius: 40px;
+  font-weight:600;
+  font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 12px;
     }
-    .logo2 img{
-        width: 100px; /* Breite der Bilder anpassen */
-        height: 700px; /* Höhe automatisch anpassen */
-        margin-right: 80px; /* Rechten Abstand zwischen den Bildern anpassen */
-        
-        
-    }
+
+.btn5:hover{
+    background-color: rgb(70, 68, 68);
+}
+
+    
