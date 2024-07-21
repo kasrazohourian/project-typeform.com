@@ -7,6 +7,10 @@ body{
     
     justify-content: space-between;
     background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
     
 }
 .toolbar{
