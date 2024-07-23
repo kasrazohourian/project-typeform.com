@@ -452,6 +452,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1320px;
 }
 .text7 {
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
@@ -469,5 +470,81 @@ a{
     line-height: 24px;
     margin-top: 40px;
     
+    
+}
+
+/* aghaze 6 box edame*/
+
+a{
+    display: block;
+    padding-top: 10px;
+    
+    
+}
+.links{
+    font-weight: 400;
+    letter-spacing: 0.4;
+    text-align: start;
+    margin-top: 16px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+    
+    
+    
+}
+.box1,.box2, .box3{ 
+    background-color:rgb(247, 247, 246) ;
+    width: 400px;
+    height: 180px;
+    padding-left: 32px;
+    padding-top: 40px;
+    border-radius: 24px;
+    margin: 15px;
+    text-align: start;
+    font-weight: 450;
+    font-size: 24px;
+    letter-spacing: 0.7;
+    
+}
+a{
+    display: block;
+    padding-top: 10px;
+    
+    
+}
+.links2{
+    font-weight: 400;
+    letter-spacing: 0.4;
+    text-align: start;
+    margin-top: 16px;
+}
+.list2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+    margin-top: -200px;
+
+    
+}
+.box4,.box5, .box7{ 
+    background-color:rgb(247, 247, 246) ;
+    width: 400px;
+    height: 180px;
+    padding-left: 32px;
+    padding-top: 40px;
+    border-radius: 24px;
+    margin: 15px;
+    text-align: start;
+    font-weight: 450;
+    font-size: 24px;
+    letter-spacing: 0.7;
+    margin-bottom: 90px;
     
 }
