@@ -486,6 +486,7 @@ a{
     letter-spacing: 0.4;
     text-align: start;
     margin-top: 16px;
+    
 }
 .list{
     display: flex;
@@ -589,6 +590,9 @@ a{
 }
 .box7:hover a{
     color: white;
+}
+.links a:hover{
+    text-decoration: underline;
 }
 
 
