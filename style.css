@@ -213,7 +213,9 @@ body{
     
 }
 .text3{
-    text-align: center;
+
+   text-align: center;
+   padding-left: 60px;
     font-size: 48px; 
     max-width: 1320px;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
@@ -452,6 +454,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 60px;
     max-width: 1320px;
 }
 .text7 {
@@ -594,6 +597,7 @@ a{
 .links a:hover{
     text-decoration: underline;
 }
+
 
 
 
