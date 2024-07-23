@@ -514,6 +514,7 @@ a{
 a{
     display: block;
     padding-top: 10px;
+    text-decoration: none;
     
     
 }
@@ -548,3 +549,49 @@ a{
     margin-bottom: 90px;
     
 }
+.box1:hover{
+    background-color: black;
+    color: white;
+}
+.box1:hover a{
+    color: white;
+}.box2:hover{
+    background-color: black;
+    color: white;
+}
+.box2:hover a{
+    color: white;
+}
+.box3:hover{
+    background-color: black;
+    color: white;
+}
+.box3:hover a{
+    color: white;
+}
+.box4:hover{
+    background-color: black;
+    color: white;
+}
+.box4:hover a{
+    color: white;
+}
+.box5:hover{
+    background-color: black;
+    color: white;
+}
+.box5:hover a{
+    color: white;
+}
+.box7:hover{
+    background-color: black;
+    color: white;
+}
+.box7:hover a{
+    color: white;
+}
+
+
+
+
+
