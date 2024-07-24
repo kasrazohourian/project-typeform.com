@@ -522,12 +522,7 @@ a{
     
     
 }
-.links2{
-    font-weight: 400;
-    letter-spacing: 0.4;
-    text-align: start;
-    margin-top: 16px;
-}
+
 .list2{
     display: flex;
     flex-direction: row;
@@ -598,8 +593,94 @@ a{
     text-decoration: underline;
 }
 
+/*ghesmate akhare white*/
 
+.white{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ghesmate1 a{
+    padding: 10px;
+    position: relative;
+    bottom: 120px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+    
+}
+.ghesmate2{
+    font-size: 48px;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
+    letter-spacing: -0.02em;
+    line-height: 100%;
+    font-weight: 350;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+.ghesmate3{
+    padding: 10px;
+    position: relative;
+    bottom: 35px;
+    font-size: 22px;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
+    letter-spacing: -0.02em;
+    line-height: 100%;
+    font-weight: 350;
+    letter-spacing: 1px;
+}
 
+/*aghaze ghesmate prozen%*/
+
+.prozent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
+    padding-left: 125px;
+    
+}
+.darsad1{
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+   
+}
+.shish{
+    font-weight: 300;
+}
+.of1{
+    font-size: 21px;
+   margin-bottom: 100px;
+}
+.darsad2{
+
+    align-items: center;
+    font-size: 40px;
+}
+.panj{
+    font-weight: 300;
+}
+.of2{
+    font-size: 21px;
+    padding-bottom: 130px;
+ 
+}
+
+.darsad3{
+    padding-right: 100px;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+.hasht{
+    font-weight: 300;
+}
+.of3{
+    font-size: 21px;
+    padding-bottom: 100px;
+}
 
 
 
