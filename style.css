@@ -43,7 +43,7 @@ body{
   
 }
 .menu :hover{
-    transform: translateX(5px);
+    transform: translateY(5px);
     transition: all 0.3s ease; 
 }
 
@@ -823,7 +823,7 @@ a{
     color: white;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
     padding: 13%;
-    
+    max-width: 1320px;
 }
 
 
@@ -952,6 +952,7 @@ a{
     font-size: 14px;
     padding-right: 130px;
     padding-left: 130px;
+    max-width: 1320px;
     
     
     
