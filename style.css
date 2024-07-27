@@ -961,19 +961,29 @@ a{
     align-items: center;
     margin-right: 8px; 
 }
+.pa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
+    background-color: rgb(0, 0, 0);
+    outline:1px solid white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    font-size: 13px;
+    
+}
 .pa a{
     color: white;
     text-decoration: underline;
+    font-size: 13px;
 }
-
-
-.english{
-    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
-    align-items: center;
-    
-} 
-
+.pa  :hover{
+    transform: translateY(5px);
+    transition: all 0.3s ease; 
+}
 .english svg{
-    font-size: 14px;
+    
     margin-right: 8px;
 }
