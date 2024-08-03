@@ -1,19 +1,15 @@
 
 body{
     margin: 0px;
-    padding: 0px;
-    
-    
+    padding: 0px;  
+    overflow-x: hidden;
 }
 .nav{
-    
-    justify-content: space-between;
+  
     background-color: aliceblue;
     position: fixed;
     top: 0;
-    width: 100%;
-  
-   
+    width: 100%; 
 }
 
 .toolbar{
@@ -26,9 +22,6 @@ body{
     max-width: 1320px;
     margin: auto;
     
-    
-  
-  
      }
 
 .menu {
@@ -38,10 +31,10 @@ body{
     text-align: center;    
 }
 .menu img{
-    padding-right: 10px;
-    width: 15px;
-  
+    padding-right: 11px;
+    width: 15px; 
 }
+
 .menu :hover{
     transform: translateY(5px);
     transition: all 0.3s ease; 
@@ -49,8 +42,9 @@ body{
 
 .logo{
     display: flex;
-   align-items: center;
+   align-items: center;  
 }
+
 .logo .typeform{
     
     width: 120px;
@@ -58,21 +52,20 @@ body{
     margin-left: 7px;
     overflow:hidden;
     position: relative;  
-    
-    
 }
-.logo  .typeform img{
+
+.logo .typeform img{
     display: block;
     position: absolute;
     left: 0;
     right: 0;
     width: 108px;
     height: 24px;
-    transition: all 0.9s;
-    
+    transition: all 0.9s;   
 }
+
 .logo:hover .typeform img{
- transform:translateX(-100%) ;
+ transform:translateX(-108px);
 }
 
 
@@ -106,7 +99,7 @@ body{
    background-color:aliceblue ;
    
     }
-    .btn1{
+ .btn1{
  padding: 10px 20px;
   margin: 0 5px; 
   border: none;
@@ -116,6 +109,7 @@ body{
   cursor: pointer;
   font-size: 12px;
     }
+
     .btn2{
         padding: 10px 20px;
         margin: 0 5px; 
@@ -134,14 +128,20 @@ body{
         background-color:rgb(103, 173, 234);
     }
 
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+}
 .video{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     height: 480px;
     margin-top: 60px;
-    margin-left: 100px;
-    
+    margin-left: 100px;    
 }
 .text{
     display: flex;
@@ -150,11 +150,6 @@ body{
     justify-content: space-evenly;
     margin-right: 50px;
     margin-top: 20px;
-    
- 
-   
-    
-
 }
 .text1{
     display: flex;
@@ -164,11 +159,9 @@ body{
     margin-left: 50px;
     width: 500px;
     font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-
 }
 
 .text2{
-
     margin-left: 50px;
     margin-bottom: 50px;
     text-align: start;
@@ -206,7 +199,6 @@ body{
     
 }
 .rated{
-
     font-size: 19px; /* Anpassen der Schriftgröße nach Bedarf */
     font-weight:290;
     max-width: 1320px;
@@ -217,19 +209,15 @@ body{
     font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue, sans-serif";
     letter-spacing: 0.03em;
      line-height: 100%;
-
 }
-
 
 .logo2 img {
     margin: 40px; /* Abstand zwischen den Logos */
     width: 130px;
     height: 300px;
-    align-items: flex-end;
-    
+    align-items: flex-end;   
 }
 .text3{
-
    text-align: center;
    padding-left: 60px;
     font-size: 48px; 
@@ -238,9 +226,7 @@ body{
     font-weight: 400; 
     font-size: 60;
     letter-spacing: -0.00em;
-     line-height: 100%;
-     
-    
+     line-height: 100%;   
 }
 .text-middle{
     display: block;
@@ -254,11 +240,7 @@ body{
     width: 845px;
     height: 480px;
     padding: 10%;
-    margin-left: 300px;
-    
-
-  
-    
+    margin-left: 300px;   
 }
 .look{
     display: block;
@@ -266,23 +248,15 @@ body{
     margin-right: 50px;
     margin-top: 90px;
     max-width: 1320px;
-    
-    
-
 }
 .feel{
     display: flex;
     flex-direction: row;
 }
-.text4{
-
-    
+.text4{ 
     margin-right: 300;
     font-size: 45px;
-    font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
-   
-    
-      
+    font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";     
 }
 .text5{
 
@@ -322,36 +296,21 @@ margin-top: 20px;
     width: 845px;
     height: 480px;
     padding-left: 180px;
-    padding-top:0%;
-    
-    
-    
-
-  
-    
+    padding-top:0%;   
 }
 .more{
     display:flex;
     flex-direction: column;
     margin-left: 10px;
-    
-    
-
 }
-.jomle{
-    
-    
+.jomle{ 
     max-width: 1320px;
     margin-top: 50px;
     margin-left:150px;
     max-width: 1320px;
-
-
 }
 
-.jomle1{
-    
-    
+.jomle1{  
     margin-right: 300px;
     font-size: 45px;
     font-family:"apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
@@ -368,10 +327,7 @@ margin-top: 20px;
     font-size: 16px;
     text-align: start;
     margin-top: 20px;
-    margin-left: 150px;
-    
-    
-    
+    margin-left: 150px;  
 }
 .buttom5{
     display: flex;
@@ -400,22 +356,19 @@ margin-top: 20px;
 
 .works{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 170px;
-    max-width: 1320px;
-    
+    padding: 100px;
+    max-width: 1320px;  
 }
 .text6 {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    margin-right: 60px;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
-    font-size: 29px;
-    
-    
-    
+    font-size: 29px;   
 }
 a{
     color: black;
@@ -425,11 +378,6 @@ a{
 .zapierAx{
     display: flex;
     align-items: center;
-    
- 
-
-
-
 }
 .zapier{
     background-color: rgb(247, 247, 246);
@@ -439,11 +387,6 @@ a{
     border-radius: 52px;
     scroll-snap-align:center;
     margin: 20px;
-    
-
-    
-    
-
 }
 .calendly{
     background-color: rgb(247, 247, 246);
@@ -463,10 +406,20 @@ a{
     scroll-snap-align:center;
     margin: 20px;
 }
+@media screen and (min-width: 300px) and (max-width :1024px) {
+   .zapierAx{
+    display: block;
+   }
+   .text6{
+    text-align: center;
+    align-items: center;
+   }
+    }
+
 
 /*aghaze bakheshe 6box*/
 
-.box6{
+.section6{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -476,9 +429,10 @@ a{
 .text7 {
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
     font-size: 52px;
-    font-weight: 400;
-    letter-spacing: 4px;
+    font-weight: 450;
+    letter-spacing: 3px;
     line-height: 20px;
+    padding-bottom: 40px;
     }
 
 .text8{
@@ -487,126 +441,93 @@ a{
     font-weight: 370;
     letter-spacing: 1px;
     line-height: 24px;
-    margin-top: 40px;
-    
-    
+    padding-bottom: 90px;
 }
+@media screen and (min-width: 300px) and (max-width :1024px) {
+    .text7{
+        font-size: 24px; 
+    }
+    .text8{
+        font-size: 16px;
+        text-align: center;
+    }
+    }
 
 /* aghaze 6 box edame*/
 
 a{
     display: block;
     padding-top: 10px;
-    
-    
+    text-decoration: none; 
+    font-weight: 300;
+    font-size: 16px;
+
 }
 .links{
-    font-weight: 400;
     letter-spacing: 0.4;
     text-align: start;
     margin-top: 16px;
-    
 }
 .list{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 100px;
+    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.cards{ 
+    background-color:rgb(247, 247, 246) ;
+    width: 25%;
+    height:180px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-top: 25px;
+    border-radius: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: start;
+    letter-spacing: 0.7;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
     
-    
-    
 }
-.box1,.box2, .box3{ 
-    background-color:rgb(247, 247, 246) ;
-    width: 400px;
-    height: 180px;
-    padding-left: 32px;
-    padding-top: 40px;
-    border-radius: 24px;
-    margin: 15px;
-    text-align: start;
-    font-weight: 450;
-    font-size: 24px;
-    letter-spacing: 0.7;
-    
-}
-a{
+.links{
     display: block;
-    padding-top: 10px;
+    align-items: center;
     text-decoration: none;
-    
-    
-}
-
-.list2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 100px;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
-    margin-top: -200px;
+}
+ 
+.cards:hover {
+    background-color: black;
+    color: white;
+}
 
-    
-}
-.box4,.box5, .box7{ 
-    background-color:rgb(247, 247, 246) ;
-    width: 400px;
-    height: 180px;
-    padding-left: 32px;
-    padding-top: 40px;
-    border-radius: 24px;
-    margin: 15px;
-    text-align: start;
-    font-weight: 450;
-    font-size: 24px;
-    letter-spacing: 0.7;
-    margin-bottom: 90px;
-    
-}
-.box1:hover{
-    background-color: black;
-    color: white;
-}
-.box1:hover a{
-    color: white;
-}.box2:hover{
-    background-color: black;
-    color: white;
-}
-.box2:hover a{
-    color: white;
-}
-.box3:hover{
-    background-color: black;
-    color: white;
-}
-.box3:hover a{
-    color: white;
-}
-.box4:hover{
-    background-color: black;
-    color: white;
-}
-.box4:hover a{
-    color: white;
-}
-.box5:hover{
-    background-color: black;
-    color: white;
-}
-.box5:hover a{
-    color: white;
-}
-.box7:hover{
-    background-color: black;
-    color: white;
-}
-.box7:hover a{
+.cards:hover a {
     color: white;
 }
 .links a:hover{
     text-decoration: underline;
+}
+.pfile {
+    width: 14px;
+    padding-right: 5px;
+}
+.pfile:hover { 
+    background-color: white;
+}
+
+
+
+@media screen and (min-width: 438px) and (max-width :1024px) {
+.cards{
+    width: 46%;
+    font-size:18px ;
+}
+.links a{
+   font-size: 10px;
+}
 }
 
 /*ghesmate akhare white*/
@@ -615,14 +536,11 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 .ghesmate1 a{
-    padding: 10px;
+    padding-top: 120px;
     position: relative;
-    bottom: 120px;
     font-weight: 500;
     font-size: 20px;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif"; 
@@ -636,7 +554,7 @@ a{
     font-weight: 350;
     font-size: 65px;
     letter-spacing: 1px;
-    padding-top: 20px;
+    padding-top: 130px;
 }
 .ghesmate3{
     padding: 10px;
@@ -655,14 +573,13 @@ a{
 .prozent{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
-    padding-left: 60px;
-    max-width: 1320px;
-    padding-top:    10px;
- 
-   
-        
+    padding-top: 10px;
+    width: 70%;
+    position: relative;
+left: 250px;
+
 }
 
 @keyframes fadeIn {
@@ -674,56 +591,72 @@ a{
     }
 }
 .darsad1{
-    text-align: center;
-    font-size: 40px;
-    align-items: center;
+
+    font-size: 45px;
     opacity: 1; /* Initial state */
     animation: fadeIn 3s ease-in-out;
-    
 }
+    
+    
 
 .shish{
     font-weight: 300;
 }
 .of1{
-    font-size: 21px;
+    font-size: 24px;
    margin-bottom: 100px;
 }
 .darsad2{
 
-    align-items: center;
-    font-size: 40px;
+    font-size: 45px;
     opacity: 1; /* Initial state */
-            animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
 }
 .panj{
     font-weight: 300;
 }
 .of2{
-    font-size: 21px;
+    font-size: 24px;
     padding-bottom: 130px;
  
 }
 
 .darsad3{
-    
-    align-items: center;
-    text-align: center;
-    font-size: 40px;
+
+    font-size: 45px;
     opacity: 1; /* Initial state */
-            animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
 
 }
+
+
 .hasht{
     font-weight: 300;
 }
 .of3{
-    font-size: 21px;
+    font-size: 24px;
     padding-bottom: 100px;
     border-bottom-right-radius: 300px;
-    
-    
 }
+
+@media screen and (min-width: 300px) and (max-width :1024px) {
+    .prozent{ 
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    .darsad1,.darsad2,.darsad3{
+    display:block;
+    font-size: 15px;
+    opacity: 1; /* Initial state */
+    animation: fadeIn 3s ease-in-out;
+    }
+    .of1,.of2,.of3{
+        font-size: 14px;
+    }
+    }
+
+
 .zavie{
     display: flex;
     flex-direction: column;
@@ -770,17 +703,16 @@ a{
     padding-bottom: 30px;
 }
 .dokme{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-right: 563px;
-    padding-left: 563px;
-    
+    justify-content: center;
 }
 .dokme1{
  padding: 12px;
  padding-left: 40px;
  padding-right: 40px;
+ margin-right: 5px;
  border-radius: 12px;
  font-weight: 450;
  font-size: 15px;
@@ -797,6 +729,7 @@ a{
  padding: 12px;
  padding-left: 20px;
  padding-right: 20px;
+ margin-left: 5px;
  border-radius: 12px;
  font-weight: 450;
  font-size: 15px;
@@ -823,7 +756,7 @@ a{
     color: white;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
     padding: 13%;
-    max-width: 1320px;
+    
 }
 
 
@@ -835,6 +768,7 @@ a{
     padding-top: 20px;
     font-size: 16px;
     font-weight: 150;
+    
   
 }
 .product-menu :hover{
@@ -891,8 +825,8 @@ a{
     font-weight: 400;
 }
 
-.Resources-menu a{
-    display: block
+.Resources2-menu a{
+    display: block;
     justify-content: space-between;
     color: inherit;
     padding-top: 20px;
@@ -900,11 +834,11 @@ a{
     font-weight: 150;
   
 }
-.Resources-menu :hover{
+.Resources2-menu :hover{
     transform: translateX(5px);
     transition: all 0.3s ease; 
 }
-.Resources{
+.Resources2{
     padding-bottom: 25px;
     font-size: 18px;
     font-weight: 400;
@@ -933,8 +867,11 @@ a{
     padding: 0px;
     margin: 0px;
     gap: 10px;
-    
-   
+}
+.socialmedia :hover {
+
+    transform: translateY(5px);
+    transition: all 1s;
 }
 
 /* pavaraghi*/
@@ -943,38 +880,26 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 0px;
     margin: 0px;
     color: white;
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
-    font-size: 14px;
-    padding-right: 130px;
+    font-size: 13px;
+    padding-right: 800px;
     padding-left: 130px;
-    max-width: 1320px;
-    
-    
-    
+    outline:1px solid white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .loc svg{
     font-size: 14px;
     align-items: center;
     margin-right: 8px; 
 }
-.pa{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
-    background-color: rgb(0, 0, 0);
-    outline:1px solid white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    align-items: center;
-    font-size: 13px;
-    
-}
+
 .pa a{
     color: white;
     text-decoration: underline;
