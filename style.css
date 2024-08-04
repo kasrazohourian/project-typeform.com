@@ -150,6 +150,8 @@ body{
     display: flex;
     flex-direction:column;
     justify-content: space-between;
+    margin-bottom: 20px;
+
 }
 .text1{
     display: flex;
@@ -180,14 +182,15 @@ body{
    
 }
 .btn3{
-    padding: 10px 20px;
+    padding: 16px 25px;
         margin: 5px; 
         border:none;
         border-radius: 15px;
         background-color: rgb(0, 0, 0);
         color: rgb(255, 251, 251);
         cursor: pointer;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 300;
         font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;;
     
 }
