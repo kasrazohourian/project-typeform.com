@@ -535,10 +535,13 @@ a{
 .cards:hover {
     background-color: black;
     color: white;
+    transition: 0.3s ease-in;
+    
 }
 
 .cards:hover a {
    color: white;
+   transition: 0.3s ease-in;
 }
 
    
