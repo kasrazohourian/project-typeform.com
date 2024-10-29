@@ -10,6 +10,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%; 
+    align-items: center;
 }
 
 .toolbar{
@@ -21,14 +22,18 @@ body{
     font-family: "apercu-pro", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue, sans-serif";
     max-width: 1320px;
     margin: auto;
-    
+
      }
 
 .menu {
     display: flex;
+    position: relative;
+    bottom: 10px;
     flex-direction: row;
     justify-content: space-between;
-    text-align: center;    
+    text-align: center;
+    
+    
 }
 .menu img{
     padding-right: 11px;
